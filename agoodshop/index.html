@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>agoodshop · Carrito de la compra</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header><div class="contenedor marca">agoodshop</div></header>
+  <main class="contenedor">
+    <h1>Tu carrito de la compra</h1>
+    <p>Elige las unidades de cada producto para calcular tu compra.</p>
+    <p id="estado" role="status" aria-live="polite">Cargando productos…</p>
+    <button id="reintentar" type="button" hidden>Reintentar carga</button>
+    <div class="distribucion">
+      <section aria-label="Productos disponibles" class="tabla-contenedor">
+        <table>
+          <thead><tr><th scope="col">Producto</th><th scope="col">Cantidad</th><th scope="col">Precio</th><th scope="col">Subtotal</th></tr></thead>
+          <tbody id="productos"></tbody>
+        </table>
+      </section>
+      <aside aria-labelledby="titulo-resumen">
+        <h2 id="titulo-resumen">Resumen de la compra</h2>
+        <ul id="resumen"></ul>
+        <div class="total" aria-live="polite"><span>TOTAL</span><strong id="total">0,00 €</strong></div>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>

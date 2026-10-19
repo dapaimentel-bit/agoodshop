@@ -1,0 +1,40 @@
+{
+  "currency": "€",
+  "products": [
+    {
+      "SKU": "1H4QOSOV4V",
+      "title": "Iphone 13 Pro",
+      "price": "938.99"
+    },
+    {
+      "SKU": "TG4QOSOV4V",
+      "title": "Cargador",
+      "price": "49.99"
+    },
+    {
+      "SKU": "IOPW9BQ9F3",
+      "title": "Funda de piel",
+      "price": "59.99"
+    },
+    {
+      "SKU": "PPPQOSOV4V",
+      "title": "Camisa",
+      "price": "19.99"
+    },
+    {
+      "SKU": "0H4QHSOV4V",
+      "title": "Pantalones",
+      "price": "29.99"
+    },
+    {
+      "SKU": "PH5QNSOV4V",
+      "title": "Calcetines",
+      "price": "9.99"
+    },
+    {
+      "SKU": "HTEQOHOV4V",
+      "title": "Jersey",
+      "price": "4.99"
+    }
+  ]
+}
